@@ -10,7 +10,7 @@ buttons.forEach(btn => {
     const title = card.querySelector("h2").innerText.trim(); // نص العنوان
     
     // رقم الواتساب
-    const phone = "201019890771";
+    const phone = "+201019890771";
     
     // الرسالة المخصصة
     const message = 'مرحبا، أريد تفاصيل عن المنتج: ${title}';
@@ -19,4 +19,5 @@ buttons.forEach(btn => {
     const url = 'https://wa.me/${phone}?text=${encodeURIComponent(message)}';
     window.open(url, "_blank");
   });
+
 });
