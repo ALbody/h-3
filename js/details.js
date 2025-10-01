@@ -9,7 +9,7 @@ buttons.forEach(btn => {
     const title = card.querySelector("h2").innerText.trim();
 
     // رقم الواتساب (بدون + أو مسافات)
-    const phone = "201019890771";
+    const phone = "201094148933";
 
     // الرسالة
     var message = "مرحبا، أريد تفاصيل عن المنتج: " + title;
@@ -20,4 +20,5 @@ buttons.forEach(btn => {
     // فتح الرابط
     window.open(url, "_blank");
   });
+
 });
